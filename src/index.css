@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body{
+  display:grid;
+  place-items:center;
+  height:100vh;
+  font-family: 'Fraunces', serif;
+  font-family: 'Montserrat', sans-serif;
+  background-color:hsl(30, 38%, 92%);
+}
+#root{
+  width:500px;
+  height:410px;
+  display:flex;
+  border-radius:10px;
+  overflow:hidden;
+}
+@media screen and (max-width:510px){
+  #root{
+    width:80%;
+    height:90%;
+  }
+}
